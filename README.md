@@ -46,4 +46,4 @@ The application is engineered to eliminate data-dependency, ensuring that core f
 
 1. **Clone the project:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/rawh_app.git](https://github.com/YOUR_USERNAME/rawh_app.git)
+   git clone [https://github.com/mohamedismail-dev/rawh_app.git](https://github.com/mohamedismail-dev/rawh_app.git)
