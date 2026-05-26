@@ -178,21 +178,15 @@ class _TimeScreenState extends State<TimeScreen> {
                           child: Row(
                             mainAxisAlignment: .center,
                             children: [
-                              Stack(
-                                alignment: .center,
-                                children: [
-                                  Image.asset(
-                                    "assets/images/Mosque-01.png",
-                                    width: width * 0.65,
-                                  ),
-                                  Positioned(
-                                    bottom: 0,
-                                    child: Text(
-                                      " Rawh",
-                                      style: AppTextStyle.titelBig,
-                                    ),
-                                  ),
-                                ],
+                              Padding(
+                                padding: const EdgeInsets.only(
+                                  top: 0,
+                                  bottom: 8,
+                                ),
+                                child: Image.asset(
+                                  "assets/images/logo/Logo Rawh.png",
+                                  width: width * 0.65,
+                                ),
                               ),
                             ],
                           ),
@@ -217,6 +211,7 @@ class _TimeScreenState extends State<TimeScreen> {
                                   children: [
                                     SvgPicture.asset(
                                       "assets/icons/cust_shape.svg",
+                                      color: AppColors.gold,
                                       height: hight * 0.09,
                                       fit: BoxFit.cover,
                                       width: width * 0.19,

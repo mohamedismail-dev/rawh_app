@@ -9,7 +9,7 @@ class AppTextStyle {
   );
   static TextStyle titelLarge = TextStyle(
     fontSize: 24,
-    color: AppColors.gold,
+    color: AppColors.offWhite,
     fontFamily: "Janna",
   );
   static TextStyle titelLargeBlack = TextStyle(

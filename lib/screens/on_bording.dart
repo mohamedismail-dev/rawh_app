@@ -23,28 +23,19 @@ class _OnBordingState extends State<OnBording> {
       backgroundColor: AppColors.black,
       body: Column(
         children: [
-          Padding(
-            padding: const EdgeInsets.only(top: 32),
-            child: Row(
-              mainAxisAlignment: .center,
-              children: [
-                Stack(
-                  alignment: .bottomCenter,
-                  children: [
-                    Image.asset(
-                      "assets/images/Mosque-01.png",
-                      width: width * 0.65,
-                    ),
-                    Positioned(
-                      bottom: 0,
-                      child: Text(" Rawh", style: AppTextStyle.titelBig),
-                    ),
-                  ],
+          Row(
+            mainAxisAlignment: .center,
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(top: 28, bottom: 48),
+                child: Image.asset(
+                  "assets/images/logo/Logo Rawh.png",
+                  width: width * 0.65,
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
-          SizedBox(height: 30),
+
           SizedBox(
             height: hight * 0.44,
             child: PageView.builder(
