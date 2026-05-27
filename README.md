@@ -12,9 +12,13 @@
 </p>
 
 <p align="center">
-  <b>Rāwh</b> because the soul, too, needs its sustenance.
-From the tranquility of Quran recitation to the punctuality of prayer times and the rhythm of Tasbih, Rawh brings every essential act of worship into a single, elegant companion. Designed with a breathtaking dark palette and built to work flawlessly offline, it's the Islamic toolkit you can rely on wherever you are — at home, on the road, or in the quiet moments of your night.
+  <b>Rāwh</b> — because the soul, too, needs its sustenance.<br>
+  From the tranquility of Quran recitation to the accuracy of prayer times and the rhythm of Tasbih, Rāwh combines all essential acts of worship into a single, easy, elegant companion. Designed with a breathtaking dark palette and built to work flawlessly offline, it's the Islamic toolkit you can depend on wherever you are at home, on the road, or in the quiet moments of your night.
+</p>
 
+## ✨ App Preview
+<p align="center">
+  <img src="assets/images/logo/HeroS.png" alt="Rawh Hero" width="600" style="max-width: 25%;" />
 </p>
 
 ---
@@ -38,23 +42,23 @@ From the tranquility of Quran recitation to the punctuality of prayer times and 
 
 <div align="center">
   <h4>Onboarding</h4>
-  <img src="assets\images\logo\screenshots\welcome1.png" alt="Onboarding" width="250"/>
-  <img src="assets\images\logo\screenshots\welcome2.png" alt="Home Dashboard" width="250"/>
+  <img src="assets/images/logo/screenshots/welcome1.png" alt="Onboarding" width="250"/>
+  <img src="assets/images/logo/screenshots/welcome2.png" alt="Home Dashboard" width="250"/>
   
   <h4>Quran & Search | Prayer Times & Azan</h4>
-  <img src="assets\images\logo\screenshots\quran.png" alt="Quran Surahs" width="250"/>
-  <img src="assets\images\logo\screenshots\time.png" alt="Prayer Times" width="250"/>
+  <img src="assets/images/logo/screenshots/quran.png" alt="Quran Surahs" width="250"/>
+  <img src="assets/images/logo/screenshots/time.png" alt="Prayer Times" width="250"/>
 
   <h4>Tasbih, Hadith & Azkar</h4>
-  <img src="assets\images\logo\screenshots\hadith.png" alt="Digital Tasbih" width="250"/>
-  <img src="assets\images\logo\screenshots\sebha.png" alt="Hadith Collection" width="250"/>
+  <img src="assets/images/logo/screenshots/hadith.png" alt="Digital Tasbih" width="250"/>
+  <img src="assets/images/logo/screenshots/sebha.png" alt="Hadith Collection" width="250"/>
 </div>
 
 ---
 
 ## 🌙 Ramadan Splash Screen
 <p align="center">
-  <img src="assets\images\logo\screenshots\splashNew.png" alt="Ramadan Splash" width="300"/>
+  <img src="assets/images/logo/screenshots/splashNew.png" alt="Ramadan Splash" width="300"/>
 </p>
 <p align="center"><i>Automatically activated during the holy month of Ramadan.</i></p>
 
