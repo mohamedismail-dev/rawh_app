@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:islamic_app/core/app_colors.dart';
-import 'package:islamic_app/core/app_text_style.dart';
+import 'package:rawh_app/core/app_colors.dart';
+import 'package:rawh_app/core/app_text_style.dart';
 import 'package:carousel_slider/carousel_slider.dart';
-import 'package:islamic_app/data/hadith.dart';
-import 'package:islamic_app/screens/hadith_screen/hadith_details_screen.dart';
+import 'package:rawh_app/data/hadith.dart';
+import 'package:rawh_app/screens/hadith_screen/hadith_details_screen.dart';
 
 class HadithScreen extends StatefulWidget {
   const HadithScreen({super.key});

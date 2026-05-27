@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:islamic_app/screens/on_bording.dart';
+import 'package:rawh_app/screens/on_bording.dart';
 
 class RamadanSplashScreen extends StatefulWidget {
   const RamadanSplashScreen({super.key});

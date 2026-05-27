@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:islamic_app/core/app_colors.dart';
-import 'package:islamic_app/core/app_text_style.dart';
+import 'package:rawh_app/core/app_colors.dart';
+import 'package:rawh_app/core/app_text_style.dart';
 
 class RadioTab extends StatelessWidget {
   const RadioTab({super.key});

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:islamic_app/core/app_text_style.dart';
-import 'package:islamic_app/data/surah.dart';
-import 'package:islamic_app/screens/quran%20_screen/surah_details_screen.dart';
+import 'package:rawh_app/core/app_text_style.dart';
+import 'package:rawh_app/data/surah.dart';
+import 'package:rawh_app/screens/quran%20_screen/surah_details_screen.dart';
 
 class SurasList extends StatefulWidget {
   final int index;

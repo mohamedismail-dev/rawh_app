@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:islamic_app/core/app_colors.dart';
-import 'package:islamic_app/core/app_text_style.dart';
-import 'package:islamic_app/data/surah.dart';
-import 'package:islamic_app/widgets/most_recently.dart';
-import 'package:islamic_app/widgets/suras_list.dart';
+import 'package:rawh_app/core/app_colors.dart';
+import 'package:rawh_app/core/app_text_style.dart';
+import 'package:rawh_app/data/surah.dart';
+import 'package:rawh_app/widgets/most_recently.dart';
+import 'package:rawh_app/widgets/suras_list.dart';
 
 class QuranScreen extends StatefulWidget {
   const QuranScreen({super.key});

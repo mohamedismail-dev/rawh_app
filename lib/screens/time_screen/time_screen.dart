@@ -4,15 +4,15 @@ import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:islamic_app/core/app_colors.dart';
-import 'package:islamic_app/core/app_text_style.dart';
+import 'package:rawh_app/core/app_colors.dart';
+import 'package:rawh_app/core/app_text_style.dart';
 import 'package:adhan_dart/adhan_dart.dart';
-import 'package:islamic_app/screens/time_screen/azan_data.dart';
-import 'package:islamic_app/screens/time_screen/prays_items.dart';
+import 'package:rawh_app/screens/time_screen/azan_data.dart';
+import 'package:rawh_app/screens/time_screen/prays_items.dart';
 import 'package:intl/intl.dart';
 import 'package:hijri/hijri_calendar.dart';
 import 'package:audioplayers/audioplayers.dart';
-import 'package:islamic_app/screens/time_screen/prays_slider.dart';
+import 'package:rawh_app/screens/time_screen/prays_slider.dart';
 
 class TimeScreen extends StatefulWidget {
   TimeScreen({super.key});

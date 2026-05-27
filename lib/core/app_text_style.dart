@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:islamic_app/core/app_colors.dart';
+import 'package:rawh_app/core/app_colors.dart';
 
 class AppTextStyle {
   static TextStyle titelBig = TextStyle(

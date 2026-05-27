@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:islamic_app/core/app_colors.dart';
-import 'package:islamic_app/core/app_text_style.dart';
+import 'package:rawh_app/core/app_colors.dart';
+import 'package:rawh_app/core/app_text_style.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:islamic_app/screens/hadith_screen/hadith_screen.dart';
-import 'package:islamic_app/screens/quran%20_screen/quran_screen.dart';
-import 'package:islamic_app/screens/radio_screen/radio_screen.dart';
-import 'package:islamic_app/screens/sebha_screen/sebha_screen.dart';
-import 'package:islamic_app/screens/time_screen/time_screen.dart';
+import 'package:rawh_app/screens/hadith_screen/hadith_screen.dart';
+import 'package:rawh_app/screens/quran%20_screen/quran_screen.dart';
+import 'package:rawh_app/screens/radio_screen/radio_screen.dart';
+import 'package:rawh_app/screens/sebha_screen/sebha_screen.dart';
+import 'package:rawh_app/screens/time_screen/time_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

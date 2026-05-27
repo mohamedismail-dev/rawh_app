@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:islamic_app/core/app_colors.dart';
-import 'package:islamic_app/core/app_text_style.dart';
-import 'package:islamic_app/screens/radio_screen/tabs/radio_tab.dart';
-import 'package:islamic_app/screens/radio_screen/tabs/reciters_tab.dart';
+import 'package:rawh_app/core/app_colors.dart';
+import 'package:rawh_app/core/app_text_style.dart';
+import 'package:rawh_app/screens/radio_screen/tabs/radio_tab.dart';
+import 'package:rawh_app/screens/radio_screen/tabs/reciters_tab.dart';
 
 class RadioScreen extends StatefulWidget {
   RadioScreen({super.key});

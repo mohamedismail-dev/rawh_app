@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:timezone/data/latest.dart' as tzdata;
 
-import 'package:islamic_app/events_screens/ramadan_splash_screen.dart';
+import 'package:rawh_app/events_screens/ramadan_splash_screen.dart';
 import 'package:timezone/data/latest.dart' as tz;
 
 void main() async {

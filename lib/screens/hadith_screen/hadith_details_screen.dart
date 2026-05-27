@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:islamic_app/core/app_colors.dart';
-import 'package:islamic_app/core/app_text_style.dart';
-import 'package:islamic_app/data/hadith.dart';
+import 'package:rawh_app/core/app_colors.dart';
+import 'package:rawh_app/core/app_text_style.dart';
+import 'package:rawh_app/data/hadith.dart';
 
 class HadithDetailsScreen extends StatefulWidget {
   final String title;

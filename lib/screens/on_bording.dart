@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:islamic_app/core/app_colors.dart';
-import 'package:islamic_app/core/app_text_style.dart';
-import 'package:islamic_app/screens/home_screen.dart';
+import 'package:rawh_app/core/app_colors.dart';
+import 'package:rawh_app/core/app_text_style.dart';
+import 'package:rawh_app/screens/home_screen.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnBording extends StatefulWidget {
