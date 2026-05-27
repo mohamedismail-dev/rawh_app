@@ -1,49 +1,99 @@
-# 🕋 Rawh App | تطبيق رَوْح
+# 🕋 Rāwh | رَّوْحِ – Your Companion in Worship & Remembrance
 
-**Rawh (رَوْح)** is a premium, beautifully crafted, and **offline-first** Islamic utility application built using **Flutter** and **Dart**. Designed with modern UI/UX principles, it seamlessly integrates essential spiritual tools into a lightweight, high-performance mobile experience. 
+<p align="center">
+  <img src="assets/images/logo/Logo Rawh.png" alt="Rawh App Logo" width="150"/>
+</p>
 
-The application is engineered to eliminate data-dependency, ensuring that core features like Quran reading, tracking, and localized counters work completely **without an internet connection**.
+<p align="center">
+  <a href="https://flutter.dev"><img src="https://img.shields.io/badge/Flutter-3.2+-02569B?logo=flutter&logoColor=white" alt="Flutter"/></a>
+  <a href="https://dart.dev"><img src="https://img.shields.io/badge/Dart-3.0+-0175C2?logo=dart&logoColor=white" alt="Dart"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"/></a>
+  <a href="https://github.com/mohamedismail-dev/rawh_app/releases"><img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version"/></a>
+</p>
 
----
+<p align="center">
+  <b>Rāwh</b> because the soul, too, needs its sustenance.
+From the tranquility of Quran recitation to the punctuality of prayer times and the rhythm of Tasbih, Rawh brings every essential act of worship into a single, elegant companion. Designed with a breathtaking dark palette and built to work flawlessly offline, it's the Islamic toolkit you can rely on wherever you are — at home, on the road, or in the quiet moments of your night.
 
-## 📱 User Journey & Architecture (Modules)
-
-### 1. Onboarding Experience
-* A goal-oriented onboarding flow that introduces users to the app's core ecosystem, optimizing user retention from the first launch.
-
-### 2. Core Dashboard & Navigation
-* **The Holy Quran Module (114 Surahs):** * Features an optimized **Local Search** mechanism to find Surahs instantly.
-  * **Smart "Recent" Section:** Tracks and displays the last opened Surah for quick-resume functionality.
-* **Authentic Hadith Hub:** A dedicated repository displaying verified, high-quality Hadith screens for daily reading.
-* **Interactive Tasbih (Digital Beads):** An offline, tap-responsive counter pre-configured with a 33-bead cycle (*Subhan Allah, Alhamdu Lillah, La ilaha illa Allah*).
-* **Audio Recitations (On-Demand):** An immersive audio streaming player allowing users to listen to diverse world-class Qura'a and Surahs.
-* **Advanced Prayer & Time Management:** * Real-time countdown clock synchronized with Gregorian and Hijri calendars.
-  * **Automated Audio Trigger:** Executes background audio playback of the Azan precisely when a prayer time is reached.
-* **Azkar Utility System:** Categorized grid navigation covering vital daily supplications (Morning, Evening, Pre-Prayer, and Post-Prayer Azkar).
+</p>
 
 ---
 
-## 🛠️ Technical Stack & Implementation Details
+## 📱 Key Features
 
-* **Framework:** Flutter (Cross-Platform Android & iOS)
-* **Architecture:** Clean, modular structure separating the UI layer from time-tracking/state-management logic.
-* **Optimization Highlight:** Implemented strict state isolation using managed timers. This ensures the countdown clock updates every second *without* triggering heavy visual rebuilds on complex elements like the `CarouselSlider`.
-* **Key Packages & Dependencies:**
-  * `carousel_slider` for fluid prayer time transitions.
-  * `audioplayers` for local and streamed audio handling.
-  * `hijri` for accurate lunar calendar conversions.
-  * `flutter_svg` for crisp, vector-based design assets.
-
----
-
-## 🎨 UI/UX Visual Identity
-* **Design Approach:** Dark-themed spiritual minimalism.
-* **Primary Palette:** Deep Charcoal Black (Background) paired with Rich Islamic Gold (`#856B3F`) to evoke a sense of serenity and premium branding.
+| Feature | Description |
+|--------|-------------|
+| 📖 **Holy Quran (114 Surahs)** | Read and search the full Quran offline. Smart "Recent" section for quick resumption. |
+| 🕌 **Accurate Prayer Times & Athan** | Real-time countdown, Hijri/Gregorian dates, and automatic Azan audio trigger when prayer time arrives. |
+| 🎧 **Audio Recitations** | Stream or download (offline) recitations from world-renowned Qaris. |
+| 📿 **Digital Tasbih** | Interactive counter with a 33-bead cycle (Subhan Allah, Alhamdulillah, La ilaha illa Allah). |
+| 📚 **Authentic Hadith** | A curated collection of verified hadiths for daily inspiration. |
+| 🌅 **Morning & Evening Azkar** | Organized grid of daily supplications with categorized access. |
+| 🌙 **Dark Spiritual Theme** | Minimalist UI with Deep Charcoal and Rich Islamic Gold (#856B3F). |
+| 🚀 **Offline-First Architecture** | All core features work without internet. |
 
 ---
 
-## 📦 Local Installation & Setup
+## 📸 App Screenshots
 
-1. **Clone the project:**
+<div align="center">
+  <h4>Onboarding</h4>
+  <img src="assets\images\logo\screenshots\welcome1.png" alt="Onboarding" width="250"/>
+  <img src="assets\images\logo\screenshots\welcome2.png" alt="Home Dashboard" width="250"/>
+  
+  <h4>Quran & Search | Prayer Times & Azan</h4>
+  <img src="assets\images\logo\screenshots\quran.png" alt="Quran Surahs" width="250"/>
+  <img src="assets\images\logo\screenshots\time.png" alt="Prayer Times" width="250"/>
+
+  <h4>Tasbih, Hadith & Azkar</h4>
+  <img src="assets\images\logo\screenshots\hadith.png" alt="Digital Tasbih" width="250"/>
+  <img src="assets\images\logo\screenshots\sebha.png" alt="Hadith Collection" width="250"/>
+</div>
+
+---
+
+## 🌙 Ramadan Splash Screen
+<p align="center">
+  <img src="assets\images\logo\screenshots\splashNew.png" alt="Ramadan Splash" width="300"/>
+</p>
+<p align="center"><i>Automatically activated during the holy month of Ramadan.</i></p>
+
+---
+
+## 🏗️ Technical Stack & Architecture
+
+- **Framework:** Flutter 3.2+ (Dart 3.0+)
+- **State Management:** Provider (or BLoC/Riverpod – if used)
+- **Architecture Pattern:** Modular Clean Architecture with separation of UI, logic, and data layers.
+- **Offline Data:** Local Quran & Hadith data stored as structured JSON files.
+- **Audio Engine:** `audioplayers` for background Azan and on-demand recitation.
+- **Localization:** Arabic-first with full RTL support.
+- **Performance:** Optimized timer isolation to prevent UI rebuilds on complex widgets (e.g., CarouselSlider).
+
+### Key Packages
+| Package | Usage |
+|--------|-------|
+| `carousel_slider` | Smooth prayer time page transitions |
+| `audioplayers` | Azan & Quran playback |
+| `hijri` | Hijri calendar conversions |
+| `adhan_dart` | Prayer time calculations |
+| `flutter_svg` | Vector icons & illustrations |
+| `flutter_native_splash` | Native splash screen |
+
+See the complete list in [`pubspec.yaml`](pubspec.yaml).
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Flutter SDK (^3.2.0)
+- Android Studio / VS Code
+- A physical device or emulator (API 21+ / iOS 13+)
+
+### Installation
+
+1. **Clone the repository**
    ```bash
-   git clone [https://github.com/mohamedismail-dev/rawh_app.git](https://github.com/mohamedismail-dev/rawh_app.git)
+   git clone https://github.com/mohamedismail-dev/rawh_app.git
+   cd rawh_app
