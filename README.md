@@ -18,7 +18,7 @@
 
 ## ✨ App Preview
 <p align="center">
-  <img src="assets/images/logo/HeroS.png" alt="Rawh Hero" width="600" style="max-width: 25%;" />
+  <img src="assets/images/logo/HeroSNew.png" alt="Rawh Hero" width="600" style="max-width: 25%;" />
 </p>
 
 ---
@@ -29,7 +29,7 @@
 |--------|-------------|
 | 📖 **Holy Quran (114 Surahs)** | Read and search the full Quran offline. Smart "Recent" section for quick resumption. |
 | 🕌 **Accurate Prayer Times & Athan** | Real-time countdown, Hijri/Gregorian dates, and automatic Azan audio trigger when prayer time arrives. |
-| 🎧 **Audio Recitations** | Stream or download (offline) recitations from world-renowned Qaris. |
+| 🎧 **Audio Recitations & Live Radio** | Stream or download offline recitations from world-renowned Qaris, plus listen to a 24/7 live Quran radio. |
 | 📿 **Digital Tasbih** | Interactive counter with a 33-bead cycle (Subhan Allah, Alhamdulillah, La ilaha illa Allah). |
 | 📚 **Authentic Hadith** | A curated collection of verified hadiths for daily inspiration. |
 | 🌅 **Morning & Evening Azkar** | Organized grid of daily supplications with categorized access. |
@@ -49,9 +49,10 @@
   <img src="assets/images/logo/screenshots/quran.png" alt="Quran Surahs" width="250"/>
   <img src="assets/images/logo/screenshots/time.png" alt="Prayer Times" width="250"/>
 
-  <h4>Tasbih, Hadith & Azkar</h4>
+  <h4>Tasbih, Hadith, Radio</h4>
   <img src="assets/images/logo/screenshots/hadith.png" alt="Digital Tasbih" width="250"/>
   <img src="assets/images/logo/screenshots/sebha.png" alt="Hadith Collection" width="250"/>
+  <img src="assets/images/logo/screenshots/radio.png" alt="Hadith Collection" width="250"/>
 </div>
 
 ---
@@ -60,7 +61,7 @@
 <p align="center">
   <img src="assets/images/logo/screenshots/splashNew.png" alt="Ramadan Splash" width="300"/>
 </p>
-<p align="center"><i>Automatically activated during the holy month of Ramadan.</i></p>
+<p align="center"><i>Activated during the holy month of Ramadan.</i></p>
 
 ---
 
