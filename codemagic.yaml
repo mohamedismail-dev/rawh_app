@@ -12,7 +12,3 @@ workflows:
         script: flutter build ipa --release --export-method development
     artifacts:
       - build/ios/ipa/*.ipa
-    code_signing:
-      automatic:
-        distribution_type: development
-        apple_provisioning_profile: automatic
