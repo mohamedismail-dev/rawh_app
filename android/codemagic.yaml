@@ -1,11 +1,18 @@
 workflows:
   ios-build:
-    name: iOS Build
+    name: Rawh iOS Build
     environment:
       flutter: stable
       xcode: latest
+    instance_type: mac_mini_m2
     scripts:
-      - flutter pub get
-      - flutter build ipa --release --export-method development
+      - name: Install dependencies
+        script: flutter pub get
+      - name: Build iOS IPA
+        script: flutter build ipa --release --export-method development
     artifacts:
       - build/ios/ipa/*.ipa
+    code_signing:
+      automatic:
+        distribution_type: development
+        apple_provisioning_profile: automatic
